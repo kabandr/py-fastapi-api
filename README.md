@@ -8,13 +8,19 @@ An example of a REST API using FastAPI framework
 git clone https://github.com/kabandr/py-fastapi-api.git
 cd py-fastapi-api
 ```
-## Local development
+## Run locally
+
+You need Python and Pip installed on your machine.
 
 ```
+pip install -r requirements.txt  
 uvicorn main:app --reload
 ```
-## To run in Docker
+## Run in Docker
 
+You need Docker and Docker Compose installed on your machine.
 ```
-docker compose up -d
+docker compose up -d  (Latest version)
+
+docker-compose up -d  (Old version)
 ````
